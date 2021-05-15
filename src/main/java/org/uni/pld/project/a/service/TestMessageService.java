@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class TestMessageService {
 
+    public TestMessageService() {
+        System.out.println("Service initialized");
+    }
+
     @GetMapping
     public String doGet() {
         return "If you read this message service is deployed successfully";
