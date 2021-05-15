@@ -1,2 +1,2 @@
 # Software-tools-project
-[https://travis-ci.org/NikolayySt/Software-tools-project.svg?branch=main]
+[![Build Status](https://travis-ci.org/NikolayySt/Software-tools-project.svg)](https://travis-ci.org/NikolayySt/Software-tools-project)
