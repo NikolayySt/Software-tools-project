@@ -6,4 +6,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 public class Configuration {
 
+    public Configuration() {
+        System.out.println("Configuration has started");
+    }
+
 }
