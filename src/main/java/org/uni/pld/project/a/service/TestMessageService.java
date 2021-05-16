@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestMessageService {
 
     public TestMessageService() {
-        System.out.println("Service initializedd");
+        System.out.println("Service initialized");
     }
 
     @GetMapping
