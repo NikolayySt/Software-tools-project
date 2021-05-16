@@ -7,4 +7,13 @@
   </parent>
   <artifactId>project-c</artifactId>
   <name>project-c</name>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.uni.pld</groupId>
+  		<artifactId>project-b</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  
 </project>
