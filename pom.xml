@@ -58,7 +58,7 @@
 						<artifactId>heroku-maven-plugin</artifactId>
 						<version>2.0.11</version>
 						<configuration>
-							<appName>vaadin-test-project-pu</appName>
+							<appName>software-tools-project</appName>
 							<processTypes>
 								<web>java -Xmx1g -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 -jar -Dserver.port=$PORT ${full-artifact-name}</web>
 							</processTypes>
