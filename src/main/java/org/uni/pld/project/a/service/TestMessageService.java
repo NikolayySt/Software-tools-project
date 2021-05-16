@@ -14,6 +14,6 @@ public class TestMessageService {
 
     @GetMapping
     public String doGet() {
-        return "If you read this message service is deployed successfully";
+        return "If you read this message service is deployed successfully!";
     }
 }
